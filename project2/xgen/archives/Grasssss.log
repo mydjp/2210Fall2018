@@ -1,0 +1,352 @@
+pymel.core : INFO : Updating pymel with pre-loaded plugins: renderSetup
+Warning: file: C:/Program Files/Autodesk/Maya2018/scripts/startup/initialStartup.mel line 179: Y-axis is already the Up-axis
+Warning: file: C:\Users\mydjp\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 4: filePathEditor: Attribute 'aiImage.filename' is invalid or is not designated 'usedAsFilename'.
+Warning: file: C:\Users\mydjp\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 5: filePathEditor: Attribute 'aiStandIn.dso' is invalid or is not designated 'usedAsFilename'.
+Warning: file: C:\Users\mydjp\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 6: filePathEditor: Attribute 'aiVolume.filename' is invalid or is not designated 'usedAsFilename'.
+AbcExport v1.0 using Alembic 1.5.8 (built Jul 13 2016 18:28:45)
+Initialized VP2.0 renderer {
+  Version : 2016.11.35.12. Feature Level 5.
+  Adapter : GeForce GTX 1080 Ti/PCIe/SSE2
+  Vendor ID: 4318. Device ID : 6918
+  Driver : .
+  API : OpenGL V.4.6.
+  Max texture size : 16384 * 16384.
+  Max tex coords : 32
+  Shader versions supported (Vertex: 5, Geometry: 5, Pixel 5).
+  Shader compiler profile : (Best card profile)
+  Active stereo support available : 0
+  GPU Memory Limit : 11264 MB.
+  CPU Memory Limit: 46643.8 MB.
+}
+OpenCL evaluator is attempting to initialize OpenCL.
+Detected 1 OpenCL Platforms: 
+ 0: NVIDIA Corporation. NVIDIA CUDA. OpenCL 1.2 CUDA 9.1.84.
+ Supported extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer
+OpenCL evaluator choosing OpenCL platform NVIDIA Corporation.
+OpenCL evaluator is unable to find a GPU device that can share VBOs with OpenGL.
+Warning: file: C:/Program Files/Autodesk/Maya2018/scripts/startup/autoLoadPlugin.mel line 35: Loading plug-in "lookdevKit" has resulted in changes to the scene that may need to be saved.
+Warning: line 1: filePathEditor: Attribute 'aiStandIn.dso' and label 'Standin' have been saved already.
+Warning: line 1: filePathEditor: Attribute 'aiVolume.filename' and label 'VDB' have been saved already.
+00:00:00   515MB WARNING |  node "MayaMultiplyDivide" is already installed
+00:00:00   515MB WARNING |  node "MayaClamp" is already installed
+00:00:00   515MB WARNING |  node "MayaGammaCorrect" is already installed
+00:00:00   515MB WARNING |  node "MayaCondition" is already installed
+00:00:00   515MB WARNING |  node "MayaReverse" is already installed
+Warning: line 1: filePathEditor: Attribute 'aiImage.filename' and label 'Image' have been saved already.
+Successfully imported python module 'arnold'
+Successfully imported python module 'mtoa'
+Maya 2018 importing module pymel 1.0.10 (C:\Program Files\Autodesk\Maya2018\Python\lib\site-packages\pymel\__init__.pyc)
+Successfully registered renderer 'arnold'
+AbcImport v1.0 using Alembic 1.5.8 (built Jul 13 2016 18:28:45)
+Warning: Plug-in, "AbcExport.mll", is already loaded.  Skipped.
+Warning: Plug-in, "mtoa.mll", is already loaded.  Skipped.
+hlp = xgenm.xmaya.xgmArchiveExport.xgmArchiveExport()
+hlp.processDir( 'Grasssss', 'C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/', ['C:/Users/mydjp/AppData/Local/Temp/mydjp.20181106.1417.ma'], ['|polySurface43|group1'], 0, '0.0', '0.0', 1.000000, 1.000000 )
+[  0.00%] creating sub directoriesC:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/
+[  0.00%]  processing file C:/Users/mydjp/AppData/Local/Temp/mydjp.20181106.1417.ma
+[  0.00%]   processing scene C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/Grasssss
+[  0.00%]    openScene C:/Users/mydjp/AppData/Local/Temp/mydjp.20181106.1417.ma
+File read in  0.077 seconds.
+File read in  0.077 seconds.
+Importing XGen Collections...
+Done.
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 627: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 590: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+[  0.00%]    fixNodeToShapeParent objs - ['|polySurface43|group1']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - [u'|polySurface43|group1|polySurface44', u'|polySurface43|group1|polySurface45', u'|polySurface43|group1|polySurface46', u'|polySurface43|group1|polySurface47', u'|polySurface43|group1|polySurface48', u'|polySurface43|group1|polySurface49', u'|polySurface43|group1|polySurface50', u'|polySurface43|group1|polySurface51', u'|polySurface43|group1|polySurface52', u'|polySurface43|group1|polySurface53', u'|polySurface43|group1|polySurface54', u'|polySurface43|group1|polySurface55', u'|polySurface43|group1|polySurface56', u'|polySurface43|group1|polySurface57', u'|polySurface43|group1|polySurface58', u'|polySurface43|group1|polySurface59', u'|polySurface43|group1|polySurface60', u'|polySurface43|group1|polySurface61', u'|polySurface43|group1|polySurface62', u'|polySurface43|group1|polySurface63', u'|polySurface43|group1|polySurface64', u'|polySurface43|group1|polySurface65', u'|polySurface43|group1|polySurface66', u'|polySurface43|group1|polySurface67', u'|polySurface43|group1|polySurface68', u'|polySurface43|group1|polySurface69', u'|polySurface43|group1|polySurface70', u'|polySurface43|group1|polySurface71', u'|polySurface43|group1|polySurface72', u'|polySurface43|group1|polySurface73', u'|polySurface43|group1|polySurface74', u'|polySurface43|group1|polySurface75', u'|polySurface43|group1|polySurface76', u'|polySurface43|group1|polySurface77', u'|polySurface43|group1|polySurface78', u'|polySurface43|group1|polySurface79', u'|polySurface43|group1|polySurface80', u'|polySurface43|group1|polySurface81', u'|polySurface43|group1|polySurface82', u'|polySurface43|group1|polySurface83']
+[ 25.00%]    processScene 1 [u'|polySurface43|group1|polySurface44', u'|polySurface43|group1|polySurface45', u'|polySurface43|group1|polySurface46', u'|polySurface43|group1|polySurface47', u'|polySurface43|group1|polySurface48', u'|polySurface43|group1|polySurface49', u'|polySurface43|group1|polySurface50', u'|polySurface43|group1|polySurface51', u'|polySurface43|group1|polySurface52', u'|polySurface43|group1|polySurface53', u'|polySurface43|group1|polySurface54', u'|polySurface43|group1|polySurface55', u'|polySurface43|group1|polySurface56', u'|polySurface43|group1|polySurface57', u'|polySurface43|group1|polySurface58', u'|polySurface43|group1|polySurface59', u'|polySurface43|group1|polySurface60', u'|polySurface43|group1|polySurface61', u'|polySurface43|group1|polySurface62', u'|polySurface43|group1|polySurface63', u'|polySurface43|group1|polySurface64', u'|polySurface43|group1|polySurface65', u'|polySurface43|group1|polySurface66', u'|polySurface43|group1|polySurface67', u'|polySurface43|group1|polySurface68', u'|polySurface43|group1|polySurface69', u'|polySurface43|group1|polySurface70', u'|polySurface43|group1|polySurface71', u'|polySurface43|group1|polySurface72', u'|polySurface43|group1|polySurface73', u'|polySurface43|group1|polySurface74', u'|polySurface43|group1|polySurface75', u'|polySurface43|group1|polySurface76', u'|polySurface43|group1|polySurface77', u'|polySurface43|group1|polySurface78', u'|polySurface43|group1|polySurface79', u'|polySurface43|group1|polySurface80', u'|polySurface43|group1|polySurface81', u'|polySurface43|group1|polySurface82', u'|polySurface43|group1|polySurface83']
+[ 25.00%]    processScene 2 [u'|polySurface43|group1|polySurface44', u'|polySurface43|group1|polySurface45', u'|polySurface43|group1|polySurface46', u'|polySurface43|group1|polySurface47', u'|polySurface43|group1|polySurface48', u'|polySurface43|group1|polySurface49', u'|polySurface43|group1|polySurface50', u'|polySurface43|group1|polySurface51', u'|polySurface43|group1|polySurface52', u'|polySurface43|group1|polySurface53', u'|polySurface43|group1|polySurface54', u'|polySurface43|group1|polySurface55', u'|polySurface43|group1|polySurface56', u'|polySurface43|group1|polySurface57', u'|polySurface43|group1|polySurface58', u'|polySurface43|group1|polySurface59', u'|polySurface43|group1|polySurface60', u'|polySurface43|group1|polySurface61', u'|polySurface43|group1|polySurface62', u'|polySurface43|group1|polySurface63', u'|polySurface43|group1|polySurface64', u'|polySurface43|group1|polySurface65', u'|polySurface43|group1|polySurface66', u'|polySurface43|group1|polySurface67', u'|polySurface43|group1|polySurface68', u'|polySurface43|group1|polySurface69', u'|polySurface43|group1|polySurface70', u'|polySurface43|group1|polySurface71', u'|polySurface43|group1|polySurface72', u'|polySurface43|group1|polySurface73', u'|polySurface43|group1|polySurface74', u'|polySurface43|group1|polySurface75', u'|polySurface43|group1|polySurface76', u'|polySurface43|group1|polySurface77', u'|polySurface43|group1|polySurface78', u'|polySurface43|group1|polySurface79', u'|polySurface43|group1|polySurface80', u'|polySurface43|group1|polySurface81', u'|polySurface43|group1|polySurface82', u'|polySurface43|group1|polySurface83']
+[  0.00%]     splitByShadingGroups [u'|polySurface43|group1|polySurface44', u'|polySurface43|group1|polySurface45', u'|polySurface43|group1|polySurface46', u'|polySurface43|group1|polySurface47', u'|polySurface43|group1|polySurface48', u'|polySurface43|group1|polySurface49', u'|polySurface43|group1|polySurface50', u'|polySurface43|group1|polySurface51', u'|polySurface43|group1|polySurface52', u'|polySurface43|group1|polySurface53', u'|polySurface43|group1|polySurface54', u'|polySurface43|group1|polySurface55', u'|polySurface43|group1|polySurface56', u'|polySurface43|group1|polySurface57', u'|polySurface43|group1|polySurface58', u'|polySurface43|group1|polySurface59', u'|polySurface43|group1|polySurface60', u'|polySurface43|group1|polySurface61', u'|polySurface43|group1|polySurface62', u'|polySurface43|group1|polySurface63', u'|polySurface43|group1|polySurface64', u'|polySurface43|group1|polySurface65', u'|polySurface43|group1|polySurface66', u'|polySurface43|group1|polySurface67', u'|polySurface43|group1|polySurface68', u'|polySurface43|group1|polySurface69', u'|polySurface43|group1|polySurface70', u'|polySurface43|group1|polySurface71', u'|polySurface43|group1|polySurface72', u'|polySurface43|group1|polySurface73', u'|polySurface43|group1|polySurface74', u'|polySurface43|group1|polySurface75', u'|polySurface43|group1|polySurface76', u'|polySurface43|group1|polySurface77', u'|polySurface43|group1|polySurface78', u'|polySurface43|group1|polySurface79', u'|polySurface43|group1|polySurface80', u'|polySurface43|group1|polySurface81', u'|polySurface43|group1|polySurface82', u'|polySurface43|group1|polySurface83']
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface44
+[  0.00%]     getSGsFromObj( |polySurface43|group1|polySurface44 ) returned [u'lambert2SG']
+[ 25.62%]     getSGsFromObj |polySurface43|group1|polySurface45
+[ 25.62%]     getSGsFromObj( |polySurface43|group1|polySurface45 ) returned [u'lambert2SG']
+[ 25.31%]     getSGsFromObj |polySurface43|group1|polySurface46
+[ 25.31%]     getSGsFromObj( |polySurface43|group1|polySurface46 ) returned [u'lambert2SG']
+[ 25.21%]     getSGsFromObj |polySurface43|group1|polySurface47
+[ 25.21%]     getSGsFromObj( |polySurface43|group1|polySurface47 ) returned [u'lambert2SG']
+[ 25.16%]     getSGsFromObj |polySurface43|group1|polySurface48
+[ 25.16%]     getSGsFromObj( |polySurface43|group1|polySurface48 ) returned [u'lambert2SG']
+[ 25.12%]     getSGsFromObj |polySurface43|group1|polySurface49
+[ 25.12%]     getSGsFromObj( |polySurface43|group1|polySurface49 ) returned [u'lambert2SG']
+[ 25.10%]     getSGsFromObj |polySurface43|group1|polySurface50
+[ 25.10%]     getSGsFromObj( |polySurface43|group1|polySurface50 ) returned [u'lambert2SG']
+[ 25.09%]     getSGsFromObj |polySurface43|group1|polySurface51
+[ 25.09%]     getSGsFromObj( |polySurface43|group1|polySurface51 ) returned [u'lambert2SG']
+[ 25.08%]     getSGsFromObj |polySurface43|group1|polySurface52
+[ 25.08%]     getSGsFromObj( |polySurface43|group1|polySurface52 ) returned [u'lambert2SG']
+[ 25.07%]     getSGsFromObj |polySurface43|group1|polySurface53
+[ 25.07%]     getSGsFromObj( |polySurface43|group1|polySurface53 ) returned [u'lambert2SG']
+[ 25.06%]     getSGsFromObj |polySurface43|group1|polySurface54
+[ 25.06%]     getSGsFromObj( |polySurface43|group1|polySurface54 ) returned [u'lambert2SG']
+[ 25.06%]     getSGsFromObj |polySurface43|group1|polySurface55
+[ 25.06%]     getSGsFromObj( |polySurface43|group1|polySurface55 ) returned [u'lambert2SG']
+[ 25.05%]     getSGsFromObj |polySurface43|group1|polySurface56
+[ 25.05%]     getSGsFromObj( |polySurface43|group1|polySurface56 ) returned [u'lambert2SG']
+[ 25.05%]     getSGsFromObj |polySurface43|group1|polySurface57
+[ 25.05%]     getSGsFromObj( |polySurface43|group1|polySurface57 ) returned [u'lambert2SG']
+[ 25.04%]     getSGsFromObj |polySurface43|group1|polySurface58
+[ 25.04%]     getSGsFromObj( |polySurface43|group1|polySurface58 ) returned [u'lambert2SG']
+[ 25.04%]     getSGsFromObj |polySurface43|group1|polySurface59
+[ 25.04%]     getSGsFromObj( |polySurface43|group1|polySurface59 ) returned [u'lambert2SG']
+[ 25.04%]     getSGsFromObj |polySurface43|group1|polySurface60
+[ 25.04%]     getSGsFromObj( |polySurface43|group1|polySurface60 ) returned [u'lambert2SG']
+[ 25.04%]     getSGsFromObj |polySurface43|group1|polySurface61
+[ 25.04%]     getSGsFromObj( |polySurface43|group1|polySurface61 ) returned [u'lambert2SG']
+[ 25.03%]     getSGsFromObj |polySurface43|group1|polySurface62
+[ 25.03%]     getSGsFromObj( |polySurface43|group1|polySurface62 ) returned [u'lambert2SG']
+[ 25.03%]     getSGsFromObj |polySurface43|group1|polySurface63
+[ 25.03%]     getSGsFromObj( |polySurface43|group1|polySurface63 ) returned [u'lambert2SG']
+[ 25.03%]     getSGsFromObj |polySurface43|group1|polySurface64
+[ 25.03%]     getSGsFromObj( |polySurface43|group1|polySurface64 ) returned [u'lambert2SG']
+[ 25.03%]     getSGsFromObj |polySurface43|group1|polySurface65
+[ 25.03%]     getSGsFromObj( |polySurface43|group1|polySurface65 ) returned [u'lambert2SG']
+[ 25.03%]     getSGsFromObj |polySurface43|group1|polySurface66
+[ 25.03%]     getSGsFromObj( |polySurface43|group1|polySurface66 ) returned [u'lambert2SG']
+[ 25.03%]     getSGsFromObj |polySurface43|group1|polySurface67
+[ 25.03%]     getSGsFromObj( |polySurface43|group1|polySurface67 ) returned [u'lambert2SG']
+[ 25.03%]     getSGsFromObj |polySurface43|group1|polySurface68
+[ 25.03%]     getSGsFromObj( |polySurface43|group1|polySurface68 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface69
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface69 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface70
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface70 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface71
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface71 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface72
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface72 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface73
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface73 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface74
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface74 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface75
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface75 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface76
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface76 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface77
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface77 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface78
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface78 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface79
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface79 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface80
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface80 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface81
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface81 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface82
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface82 ) returned [u'lambert2SG']
+[ 25.02%]     getSGsFromObj |polySurface43|group1|polySurface83
+[ 25.02%]     getSGsFromObj( |polySurface43|group1|polySurface83 ) returned [u'lambert2SG']
+[ 12.50%]    processScene [u'|polySurface43|group1|polySurface44', u'|polySurface43|group1|polySurface45', u'|polySurface43|group1|polySurface46', u'|polySurface43|group1|polySurface47', u'|polySurface43|group1|polySurface48', u'|polySurface43|group1|polySurface49', u'|polySurface43|group1|polySurface50', u'|polySurface43|group1|polySurface51', u'|polySurface43|group1|polySurface52', u'|polySurface43|group1|polySurface53', u'|polySurface43|group1|polySurface54', u'|polySurface43|group1|polySurface55', u'|polySurface43|group1|polySurface56', u'|polySurface43|group1|polySurface57', u'|polySurface43|group1|polySurface58', u'|polySurface43|group1|polySurface59', u'|polySurface43|group1|polySurface60', u'|polySurface43|group1|polySurface61', u'|polySurface43|group1|polySurface62', u'|polySurface43|group1|polySurface63', u'|polySurface43|group1|polySurface64', u'|polySurface43|group1|polySurface65', u'|polySurface43|group1|polySurface66', u'|polySurface43|group1|polySurface67', u'|polySurface43|group1|polySurface68', u'|polySurface43|group1|polySurface69', u'|polySurface43|group1|polySurface70', u'|polySurface43|group1|polySurface71', u'|polySurface43|group1|polySurface72', u'|polySurface43|group1|polySurface73', u'|polySurface43|group1|polySurface74', u'|polySurface43|group1|polySurface75', u'|polySurface43|group1|polySurface76', u'|polySurface43|group1|polySurface77', u'|polySurface43|group1|polySurface78', u'|polySurface43|group1|polySurface79', u'|polySurface43|group1|polySurface80', u'|polySurface43|group1|polySurface81', u'|polySurface43|group1|polySurface82', u'|polySurface43|group1|polySurface83']
+[ 12.50%]    before archiveExport [u'|polySurface43|group1|polySurface44', u'|polySurface43|group1|polySurface45', u'|polySurface43|group1|polySurface46', u'|polySurface43|group1|polySurface47', u'|polySurface43|group1|polySurface48', u'|polySurface43|group1|polySurface49', u'|polySurface43|group1|polySurface50', u'|polySurface43|group1|polySurface51', u'|polySurface43|group1|polySurface52', u'|polySurface43|group1|polySurface53', u'|polySurface43|group1|polySurface54', u'|polySurface43|group1|polySurface55', u'|polySurface43|group1|polySurface56', u'|polySurface43|group1|polySurface57', u'|polySurface43|group1|polySurface58', u'|polySurface43|group1|polySurface59', u'|polySurface43|group1|polySurface60', u'|polySurface43|group1|polySurface61', u'|polySurface43|group1|polySurface62', u'|polySurface43|group1|polySurface63', u'|polySurface43|group1|polySurface64', u'|polySurface43|group1|polySurface65', u'|polySurface43|group1|polySurface66', u'|polySurface43|group1|polySurface67', u'|polySurface43|group1|polySurface68', u'|polySurface43|group1|polySurface69', u'|polySurface43|group1|polySurface70', u'|polySurface43|group1|polySurface71', u'|polySurface43|group1|polySurface72', u'|polySurface43|group1|polySurface73', u'|polySurface43|group1|polySurface74', u'|polySurface43|group1|polySurface75', u'|polySurface43|group1|polySurface76', u'|polySurface43|group1|polySurface77', u'|polySurface43|group1|polySurface78', u'|polySurface43|group1|polySurface79', u'|polySurface43|group1|polySurface80', u'|polySurface43|group1|polySurface81', u'|polySurface43|group1|polySurface82', u'|polySurface43|group1|polySurface83']
+[  0.00%]     archiveExport alembic object: [u'|polySurface43|group1|polySurface44', u'|polySurface43|group1|polySurface45', u'|polySurface43|group1|polySurface46', u'|polySurface43|group1|polySurface47', u'|polySurface43|group1|polySurface48', u'|polySurface43|group1|polySurface49', u'|polySurface43|group1|polySurface50', u'|polySurface43|group1|polySurface51', u'|polySurface43|group1|polySurface52', u'|polySurface43|group1|polySurface53', u'|polySurface43|group1|polySurface54', u'|polySurface43|group1|polySurface55', u'|polySurface43|group1|polySurface56', u'|polySurface43|group1|polySurface57', u'|polySurface43|group1|polySurface58', u'|polySurface43|group1|polySurface59', u'|polySurface43|group1|polySurface60', u'|polySurface43|group1|polySurface61', u'|polySurface43|group1|polySurface62', u'|polySurface43|group1|polySurface63', u'|polySurface43|group1|polySurface64', u'|polySurface43|group1|polySurface65', u'|polySurface43|group1|polySurface66', u'|polySurface43|group1|polySurface67', u'|polySurface43|group1|polySurface68', u'|polySurface43|group1|polySurface69', u'|polySurface43|group1|polySurface70', u'|polySurface43|group1|polySurface71', u'|polySurface43|group1|polySurface72', u'|polySurface43|group1|polySurface73', u'|polySurface43|group1|polySurface74', u'|polySurface43|group1|polySurface75', u'|polySurface43|group1|polySurface76', u'|polySurface43|group1|polySurface77', u'|polySurface43|group1|polySurface78', u'|polySurface43|group1|polySurface79', u'|polySurface43|group1|polySurface80', u'|polySurface43|group1|polySurface81', u'|polySurface43|group1|polySurface82', u'|polySurface43|group1|polySurface83']
+[  0.00%]     abcExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/abc/Grasssss.abc
+[  0.00%]     abcExport objects [u'|polySurface43|group1|polySurface44', u'|polySurface43|group1|polySurface45', u'|polySurface43|group1|polySurface46', u'|polySurface43|group1|polySurface47', u'|polySurface43|group1|polySurface48', u'|polySurface43|group1|polySurface49', u'|polySurface43|group1|polySurface50', u'|polySurface43|group1|polySurface51', u'|polySurface43|group1|polySurface52', u'|polySurface43|group1|polySurface53', u'|polySurface43|group1|polySurface54', u'|polySurface43|group1|polySurface55', u'|polySurface43|group1|polySurface56', u'|polySurface43|group1|polySurface57', u'|polySurface43|group1|polySurface58', u'|polySurface43|group1|polySurface59', u'|polySurface43|group1|polySurface60', u'|polySurface43|group1|polySurface61', u'|polySurface43|group1|polySurface62', u'|polySurface43|group1|polySurface63', u'|polySurface43|group1|polySurface64', u'|polySurface43|group1|polySurface65', u'|polySurface43|group1|polySurface66', u'|polySurface43|group1|polySurface67', u'|polySurface43|group1|polySurface68', u'|polySurface43|group1|polySurface69', u'|polySurface43|group1|polySurface70', u'|polySurface43|group1|polySurface71', u'|polySurface43|group1|polySurface72', u'|polySurface43|group1|polySurface73', u'|polySurface43|group1|polySurface74', u'|polySurface43|group1|polySurface75', u'|polySurface43|group1|polySurface76', u'|polySurface43|group1|polySurface77', u'|polySurface43|group1|polySurface78', u'|polySurface43|group1|polySurface79', u'|polySurface43|group1|polySurface80', u'|polySurface43|group1|polySurface81', u'|polySurface43|group1|polySurface82', u'|polySurface43|group1|polySurface83']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface44|polySurfaceShape28']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface45|polySurfaceShape29']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface46|polySurfaceShape30']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface47|polySurfaceShape31']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface48|polySurfaceShape32']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface49|polySurfaceShape33']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface50|polySurfaceShape34']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface51|polySurfaceShape35']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface52|polySurfaceShape36']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface53|polySurfaceShape37']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface54|polySurfaceShape38']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface55|polySurfaceShape39']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface56|polySurfaceShape40']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface57|polySurfaceShape41']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface58|polySurfaceShape42']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface59|polySurfaceShape43']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface60|polySurfaceShape44']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface61|polySurfaceShape45']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface62|polySurfaceShape46']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface63|polySurfaceShape47']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface64|polySurfaceShape48']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface65|polySurfaceShape49']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface66|polySurfaceShape50']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface67|polySurfaceShape51']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface68|polySurfaceShape52']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface69|polySurfaceShape53']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface70|polySurfaceShape54']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface71|polySurfaceShape55']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface72|polySurfaceShape56']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface73|polySurfaceShape57']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface74|polySurfaceShape58']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface75|polySurfaceShape59']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface76|polySurfaceShape60']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface77|polySurfaceShape61']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface78|polySurfaceShape62']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface79|polySurfaceShape63']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface80|polySurfaceShape64']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface81|polySurfaceShape65']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface82|polySurfaceShape66']
+[  0.00%]     abcExport select objects [u'|polySurface43|group1|polySurface83|polySurfaceShape67']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 1.000000 1.000000 -worldSpace -file "C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/abc/Grasssss.abc"
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface44
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface45
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface46
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface47
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface48
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface49
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface50
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface51
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface52
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface53
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface54
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface55
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface56
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface57
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface58
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface59
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface60
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface61
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface62
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface63
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface64
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface65
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface66
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface67
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface68
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface69
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface70
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface71
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface72
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface73
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface74
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface75
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface76
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface77
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface78
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface79
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface80
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface81
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface82
+[  0.00%]     getSGsFromObj |polySurface43|group1|polySurface83
+[ 25.00%]     archiveExport for callbacks
+[  0.00%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss
+[  0.00%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface44.ass.gz
+[  0.00%]      getSGsFromObj |polySurface43|group1|polySurface44
+[ 25.31%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface45.ass.gz
+[ 25.31%]      getSGsFromObj |polySurface43|group1|polySurface45
+[ 25.16%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface46.ass.gz
+[ 25.16%]      getSGsFromObj |polySurface43|group1|polySurface46
+[ 25.10%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface47.ass.gz
+[ 25.10%]      getSGsFromObj |polySurface43|group1|polySurface47
+[ 25.08%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface48.ass.gz
+[ 25.08%]      getSGsFromObj |polySurface43|group1|polySurface48
+[ 25.06%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface49.ass.gz
+[ 25.06%]      getSGsFromObj |polySurface43|group1|polySurface49
+[ 25.05%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface50.ass.gz
+[ 25.05%]      getSGsFromObj |polySurface43|group1|polySurface50
+[ 25.04%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface51.ass.gz
+[ 25.04%]      getSGsFromObj |polySurface43|group1|polySurface51
+[ 25.04%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface52.ass.gz
+[ 25.04%]      getSGsFromObj |polySurface43|group1|polySurface52
+[ 25.03%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface53.ass.gz
+[ 25.03%]      getSGsFromObj |polySurface43|group1|polySurface53
+[ 25.03%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface54.ass.gz
+[ 25.03%]      getSGsFromObj |polySurface43|group1|polySurface54
+[ 25.03%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface55.ass.gz
+[ 25.03%]      getSGsFromObj |polySurface43|group1|polySurface55
+[ 25.03%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface56.ass.gz
+[ 25.03%]      getSGsFromObj |polySurface43|group1|polySurface56
+[ 25.02%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface57.ass.gz
+[ 25.02%]      getSGsFromObj |polySurface43|group1|polySurface57
+[ 25.02%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface58.ass.gz
+[ 25.02%]      getSGsFromObj |polySurface43|group1|polySurface58
+[ 25.02%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface59.ass.gz
+[ 25.02%]      getSGsFromObj |polySurface43|group1|polySurface59
+[ 25.02%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface60.ass.gz
+[ 25.02%]      getSGsFromObj |polySurface43|group1|polySurface60
+[ 25.02%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface61.ass.gz
+[ 25.02%]      getSGsFromObj |polySurface43|group1|polySurface61
+[ 25.02%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface62.ass.gz
+[ 25.02%]      getSGsFromObj |polySurface43|group1|polySurface62
+[ 25.02%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface63.ass.gz
+[ 25.02%]      getSGsFromObj |polySurface43|group1|polySurface63
+[ 25.02%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface64.ass.gz
+[ 25.02%]      getSGsFromObj |polySurface43|group1|polySurface64
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface65.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface65
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface66.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface66
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface67.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface67
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface68.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface68
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface69.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface69
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface70.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface70
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface71.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface71
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface72.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface72
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface73.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface73
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface74.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface74
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface75.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface75
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface76.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface76
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface77.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface77
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface78.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface78
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface79.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface79
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface80.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface80
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface81.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface81
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface82.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface82
+[ 25.01%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/ass/Grasssss__polySurface43_group1_polySurface83.ass.gz
+[ 25.01%]      getSGsFromObj |polySurface43|group1|polySurface83
+[ 25.00%]     archiveExport for callbacks finished
+[  8.33%]    before materialExport [u'|polySurface43|group1|polySurface44', u'|polySurface43|group1|polySurface45', u'|polySurface43|group1|polySurface46', u'|polySurface43|group1|polySurface47', u'|polySurface43|group1|polySurface48', u'|polySurface43|group1|polySurface49', u'|polySurface43|group1|polySurface50', u'|polySurface43|group1|polySurface51', u'|polySurface43|group1|polySurface52', u'|polySurface43|group1|polySurface53', u'|polySurface43|group1|polySurface54', u'|polySurface43|group1|polySurface55', u'|polySurface43|group1|polySurface56', u'|polySurface43|group1|polySurface57', u'|polySurface43|group1|polySurface58', u'|polySurface43|group1|polySurface59', u'|polySurface43|group1|polySurface60', u'|polySurface43|group1|polySurface61', u'|polySurface43|group1|polySurface62', u'|polySurface43|group1|polySurface63', u'|polySurface43|group1|polySurface64', u'|polySurface43|group1|polySurface65', u'|polySurface43|group1|polySurface66', u'|polySurface43|group1|polySurface67', u'|polySurface43|group1|polySurface68', u'|polySurface43|group1|polySurface69', u'|polySurface43|group1|polySurface70', u'|polySurface43|group1|polySurface71', u'|polySurface43|group1|polySurface72', u'|polySurface43|group1|polySurface73', u'|polySurface43|group1|polySurface74', u'|polySurface43|group1|polySurface75', u'|polySurface43|group1|polySurface76', u'|polySurface43|group1|polySurface77', u'|polySurface43|group1|polySurface78', u'|polySurface43|group1|polySurface79', u'|polySurface43|group1|polySurface80', u'|polySurface43|group1|polySurface81', u'|polySurface43|group1|polySurface82', u'|polySurface43|group1|polySurface83']
+[  8.33%]    materialExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/materials/Grasssss.ma
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface44
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface45
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface46
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface47
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface48
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface49
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface50
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface51
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface52
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface53
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface54
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface55
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface56
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface57
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface58
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface59
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface60
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface61
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface62
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface63
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface64
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface65
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface66
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface67
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface68
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface69
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface70
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface71
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface72
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface73
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface74
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface75
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface76
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface77
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface78
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface79
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface80
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface81
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface82
+[  8.33%]    getSGsFromObj |polySurface43|group1|polySurface83
+[100.00%]  done in 3.626 sec C:/Users/mydjp/Documents/gitrepo/2210Fall2018/project2/xgen/archives/
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 878: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'deleteAll'

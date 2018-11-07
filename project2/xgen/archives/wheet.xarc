@@ -1,0 +1,8 @@
+#ArchiveGroup 0 name="wheet" description="No description." thumbnail="wheet.png" materials="${PROJECT}/xgen/archives/materials/wheet.ma" color=[1,0,0]
+0 "${PROJECT}/xgen/archives/abc/wheet.abc" material=wheet:initialShadingGroup objects=|pCylinder5
+1 "${PROJECT}/xgen/archives/abc/wheet.abc" material=wheet:initialShadingGroup objects=|pCylinder5
+2 "${PROJECT}/xgen/archives/abc/wheet.abc" material=wheet:initialShadingGroup objects=|pCylinder5
+3 "${PROJECT}/xgen/archives/ass/wheet__pCylinder5.ass.gz" material=wheet:initialShadingGroup objects=|pCylinder5
+4 "${PROJECT}/xgen/archives/ass/wheet__pCylinder5.ass.gz" material=wheet:initialShadingGroup objects=|pCylinder5
+5 "${PROJECT}/xgen/archives/ass/wheet__pCylinder5.ass.gz" material=wheet:initialShadingGroup objects=|pCylinder5
+
