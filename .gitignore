@@ -808,3 +808,15 @@ sysinfo.txt
 *.unitypackage
 
 *.DS_Store
+
+Cheetah/scenes/real\.mtl
+
+project2/
+
+Cheetah/Unity/
+
+Cheetah/zip/
+
+Cheetah/scenes/real\.obj
+
+Cheetah/scenes/unityready\.ma
